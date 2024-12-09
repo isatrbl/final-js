@@ -8,8 +8,8 @@
         <header>
             <header>
                 <div class="containerTopo">
-                    <img src="jp_topoLogotipo.png" alt="Logotipo Jurassic Park" class="imagemTopo" />
-                    <img src="jp_topoFundo.jpg" alt="Fundo" class="Fundo" />
+                    <img src="jp_topoLogotipo (1).png" class="imagemLogotipo(1).png" />
+
                     <nav>
                         <div class="containerMenu">
                             <a href="#secaoFilmes" class="menuLink">FILMES</a>
@@ -19,20 +19,21 @@
                     </nav>
                 </div>
             </header>
+
         <section>
             <header>
-                <div>
-                    <h1 id="secaoFilmes">FILMES DA SAGA JURASSIC PARK</h1>
+                <div class="containerPaginaTitulo">
+                    <h1 class="paginaTitulo" id="secaoFilmes">FILMES DA SAGA JURASSIC PARK</h1>
                 </div>
             </header>
             
             <article>
-                <div>
-                    <img src="jp_posterFilme_JurassicPark1.jpg">
+                <div class="containerFilmeA">
+                    <img src="jp_posterFilme_JurassicPark1.jpg" class= "filmePosterA">
                     <header>
-                        <h2>JURASSIC PARK: O PARQUE DOS DINOSSAUROS</h2>
+                        <h2 class="filmeTituloA"> JURASSIC PARK: O PARQUE DOS DINOSSAUROS</h2>
                     </header>
-                    <div>
+                    <div class="filmeDescricaoA">
                         <p>
                         Jurassic Park (no Brasil, Jurassic Park: O Parque dos Dinossauros; em Portugal, Parque Jurássico) é um filme estadunidense de ficção científica e aventura dirigido por Steven Spielberg e baseado no livro homônimo escrito por Michael Crichton. 
                         </p>
@@ -43,12 +44,12 @@
                 </div>
             </article>            
             <article>
-                <div>
-                    <img src="jp_posterFilme_JurassicPark2.jpg">
+                <div class="containerFilmeB">
+                    <img src="jp_posterFilme_JurassicPark2.jpg"class= "filmePosterB">
                     <header>
-                        <h2>JURASSIC PARK: O O MUNDO PERDIDO</h2>
+                        <h2 class="filmeTituloB"> JURASSIC PARK: O O MUNDO PERDIDO </h2>
                     </header>
-                    <div>
+                    <div class="filmeDescricaoB">
                         <p>
                         The Lost World: Jurassic Park (no Brasil, Jurassic Park 2 - O Mundo perdido; em Portugal, O Mundo Perdido: Jurassic park) é um filme estadunidense de 1997 de ficção científica aventura, dirigido por Steven Spielberg, sendo o segundo da franquia Jurassic Park. 
                         </p>
@@ -60,12 +61,12 @@
             </article>
             
             <article>
-                <div>
-                    <img src="jp_posterFilme_JurassicPark3.jpg">
+                <div class="containerFilmeC">
+                    <img src="jp_posterFilme_JurassicPark3.jpg"class= "filmePosterC">
                     <header>
-                        <h2>JURASSIC PARK III</h2>
+                        <h2 class="filmeTituloC">JURASSIC PARK III</h2>
                     </header>
-                    <div>
+                    <div class="filmeDescricaoC">
                         <p>
                         Jurassic Park III (No Brasil, Jurassic Park 3 e em Portugal, Parque Jurássico III) é um filme estadunidense de ficção científica e aventura lançado originalmente em 18 de julho de 2001 nos cinemas estadunidenses. 
                         </p>
@@ -77,12 +78,12 @@
             </article>
             
             <article>
-                <div>
-                    <img src="jp_posterFilme_JurassicPark4.jpg">
+                <div class="containerFilmeD">
+                    <img src="jp_posterFilme_JurassicPark4.jpg" class= "filmePosterD">
                     <header>
-                        <h2>JURASSIC WORLD</h2>
+                        <h2 class="filmeTituloD">JURASSIC WORLD</h2>
                     </header>
-                    <div>
+                    <div class="filmeDescricaoD">
                         <p>
                         Jurassic World (no Brasil Jurassic World: O Mundo dos Dinossauros; em Portugal Mundo Jurássico) é um filme estadunidense de ficção científica , aventura, e ação dirigido por Colin Trevorrow[5]. 
                         </p>
@@ -96,32 +97,32 @@
         
         <section>
             <article>
-                <div>
+                <div class="containerPremios">
                     <header>
-                        <h2 id="secaoPremios">PRÊMIOS</h2>
+                        <h2 class=  "premiosTitulo" id="secaoPremios">PRÊMIOS</h2>
                     </header>
-                    <table>
+                    <table class="tablePremios">
                         <tr>
-                            <th>Ano</th>
-                            <th>Categoria</th>
-                            <th>Resultado</th>
+                            <th class="thPremios">Ano</th>
+                            <th class="thPremios">Cartegoria </th>
+                            <th class="thPremios">Resultado</th>
                         </tr>
-                        <tr>
+                        <tr class="trPremios">
                             <td>1994</td>
                             <td>Melhor Filme</td>
                             <td>Venceu</td>
                         </tr>
-                        <tr>
+                        <tr class="trPremios">
                             <td>1994</td>
                             <td>Melhor Direção</td>
                             <td>Venceu</td>
                         </tr>
-                        <tr>
+                        <tr class="trPremios">
                             <td>1994</td>
                             <td>Melhor Figurino</td>
                             <td>Indicado</td>
                         </tr>
-                        <tr>
+                        <tr class="trPremios">
                             <td>1994</td>
                             <td>Melhor Escritor</td>
                             <td>Venceu</td>
@@ -130,10 +131,39 @@
                 </div>
             </article>
         </section>
+
+
+        <main>
+        <div class="containerDinossauro">
+            <nav>
+            <section id="criador-nome">
+                <h2>Criador de Nome de Dinossauro</h2>
+                <form id="form-nome-dinossauro">
+                    <label for="primeira-silaba-nome">Primeira sílaba do nome:</label>
+                    <input type="text" id="primeira-silaba-nome" name="primeira-silaba-nome" required>
+    
+                    <label for="ultima-silaba-nome">Última sílaba do nome:</label>
+                    <input type="text" id="ultima-silaba-nome" name="ultima-silaba-nome" required>
+    
+                    <label for="primeira-silaba-sobrenome">Primeira sílaba do sobrenome:</label>
+                    <input type="text" id="primeira-silaba-sobrenome" name="primeira-silaba-sobrenome" required>
+    
+                    <label for="ultima-silaba-sobrenome">Última sílaba do sobrenome:</label>
+                    <input type="text" id="ultima-silaba-sobrenome" name="ultima-silaba-sobrenome" required>
+    
+                    <button type="button" onclick="gerarNome()">Gerar nome</button>
+                </form>
+    
+                <p id="mensagem-erro" style="color: red; display: none;">Por favor, preencha todos os campos corretamente!</p>
+                <p id="nome-dinossauro" style="font-size: 20px; font-weight: bold;"></p>
+            </section>
+        </nav>
+    </div>
+        </main>
         
         <footer>
-            <div>
-                <p>JURASSIC PAGE - O seu canal de informações sobre Jurassic Park</p>
+            <div class="containerRodape">
+                <p class="rodapeTexto">JURASSIC PAGE - O seu canal de informações sobre Jurassic Park</p>
             </div>
         </footer>
         
